@@ -1,0 +1,98 @@
+
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+}
+
+.thick-hr {
+  background-color: gainsboro;
+  color: gainsboro;
+  border: solid 1px gainsboro;
+}
+
+
+.noty_theme__mint.noty_type__info, .noty_theme__mint.noty_type__information {
+  background-color: limegreen;
+
+}
+
+.fa-plus:hover, .fa-times-circle:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.border-dotted {
+  border: 1px dashed $black;
+}
+
+.fa-icon-hover:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 8px pink;
+}
+
+.progress {
+  background-color: #818181;
+  z-index: 10;
+}
+
+.no-move {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+// Audit Category
+.overview-danger {
+  border-top: 5px solid #E10000;
+}
+
+.overview-success {
+  border-top: 5px solid #03E103;
+}
+
+.fa-warning {
+  color: #E10000;
+  background-color: #fff;
+}
+
+.fa-check-circle-o {
+  color: #03E103;
+  background-color: #fff;
+}
+
+.mdi-check-circle-outline {
+  color: #03E103;
+  background-color: #fff;
+}
+
+// Dialog
+.dg-btn--cancel {
+  background-color: $gainsboro !important;
+}
+.dg-btn--ok {
+  color: #fed800 !important;
+  background-color: #fefefe;
+  border-color: #fed800 !important;
+}
+.dg-btn-loader .dg-circle {
+  background-color: $gainsboro !important;
+}
+
+//bostrapvue modal
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.link-cursor{
+  cursor: pointer;
+}
